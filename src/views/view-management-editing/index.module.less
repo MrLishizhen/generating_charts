@@ -1,0 +1,73 @@
+.view_edit {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+
+    .left {
+      user-select: none;
+      width: 260px;
+      height: 100%;
+      background-color: #fff;
+      padding-bottom: 16px;
+
+      .tabs_left {
+        width: 100%;
+        height: 100%;
+
+        :global {
+          .ant-tabs-tab-icon {
+            margin-inline-end: 6px;
+          }
+
+          .ant-tabs-content {
+            height: 100%;
+
+            .ant-tabs-tabpane {
+              height: 100%;
+              overflow: hidden;
+            }
+          }
+        }
+
+        .tab_children_box {
+          height: 100%;
+          overflow: auto;
+        }
+      }
+    }
+
+    .stage {
+      flex-grow: 1;
+      background-color: #ccc;
+      display: flex;
+      flex-direction: column;
+      .stage_box {
+        flex-grow: 1;
+      }
+
+      .stage_buttons {
+        padding: 0 20px;
+        height: 46px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        background-color: #fff;
+        .slider {
+          width: 250px;
+        }
+      }
+    }
+
+    .right {
+      width: 260px;
+      background-color: #eee;
+    }
+  }
+}

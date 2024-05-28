@@ -1,0 +1,29 @@
+{
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "prettier.configPath": ".prettierrc.cjs",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.autofetch": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // "stylelint.enable": true,
+  // "stylelint.validate": ["css", "less"],
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.stylelint": true
+  // }
+}

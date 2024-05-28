@@ -1,0 +1,48 @@
+.header {
+  position: relative;
+  height: 60px;
+  flex-shrink: 0;
+  background-color: #fff;
+
+  .header_left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .logo_box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 60px;
+      flex-shrink: 0;
+    }
+
+    .buttons {
+      flex-grow: 1;
+    }
+  }
+
+  .header_center {
+    width: 100%;
+  }
+
+  .header_right {
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    & > button {
+      margin-right: 10px;
+    }
+  }
+}
